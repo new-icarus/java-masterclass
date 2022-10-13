@@ -15,5 +15,11 @@ public class ByteShortIntLong {
                 "\nLong Maximum Value: " + Long.MAX_VALUE);
 
         long ultraLong = 2_147_483_648L; //use L to declare a long
+
+        System.out.println("\nDouble Minimum Value: " + Double.MIN_VALUE +
+            "\nDouble Maximum Value: " + Double.MAX_VALUE);
+
+        System.out.println("\nFloat Minimum Value: " + Float.MIN_VALUE +
+            "\nFloat Maximum Value: " + Float.MAX_VALUE);
     }
 }
